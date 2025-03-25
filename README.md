@@ -17,7 +17,7 @@ A criação de uma página HTML que deve conter:
 	* Nome completo 
 	* Email
 	* Tipo de Ingresso 
-		* Presencial 
+		* Presencial
 		* Online
 	* Aceitação dos termos
 * Campos obrigatórios (nome e email)
@@ -32,7 +32,7 @@ Aplicar estilos básico para:
 
 ### Princípios de UI/UX
 Ensinar boas práticas:
-* Constrate adequado entre texto e fundo
+* Contraste adequado entre texto e fundo
 * Hierarquia visual para facilitar a leitura
 * Feedback visual ao interagir com botões e inputs
 * Revisa com base nas perguntas
