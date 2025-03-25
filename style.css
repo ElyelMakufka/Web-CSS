@@ -123,11 +123,51 @@ body>div {
 .form .section * { 
     padding: 0.25em 0;
 }
+.form .section input[type=text], .form .section input[type=email] {
+    padding: .75em 0.45em;
+    font-size: 18px;
+    border: solid .125em #ddd;
+    border-radius: 8px;
+}
+
+.form input[type=submit], .form input[type=reset] {
+    font-size: 18px;
+    padding: 0.5em 1.7em;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.form input[type=submit] {
+    color: white;
+    background-color: var(--blue);
+}
+.form input[type=submit]:hover {
+    color: white;
+    background-color:#4A8DDE57;
+}
+.form input[type=submit]:active {
+    color: white;
+    background-color:#6a6ab3;
+}
+
+.form input[type=reset] {
+    color: white;
+    background-color: var(--red);
+}
+.form input[type=reset]:hover {
+    color: white;
+    background-color: #c82c1e88;
+}
+.form input[type=reset]:active {
+    color: white;
+    background-color: #d3635988
+}
 
 .form .section .section-row {
     font-size: 16px;
     margin: 0 5em;
-    
+
     display: flex;
     flex-direction: column;
 }
@@ -136,6 +176,12 @@ body>div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.form .section-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .form .section .required-info {
@@ -157,3 +203,4 @@ body>div {
     margin: 1em;
     text-align: center;
 }
+
