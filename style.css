@@ -29,9 +29,7 @@ body>div {
     flex-direction: column;
     align-items: center;
 }
-.event-info { 
-    color: var(--purple);
-}
+
 .event-info  .info-row {
     padding: 1em;
 }
@@ -66,8 +64,41 @@ body>div {
 
 .speakers-info ul {
     display: grid;
+    gap: 2.5em;
     list-style-type: none;
     grid-template-columns: auto auto auto;
+}
+.speakers-info ul li {
+    border-right: solid var(--blue) 3px;
+    border-left: solid var(--blue) 3px;
+}
+.speakers-info ul li:first-child {
+    border: none;
+}
+.speakers-info ul li:last-child {
+    border: none;
+}
+.speakers-info ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    align-items: center;
+}
+.speakers-info strong {
+    color: var(--red)
+}
+.speakers-info ul li p {
+    text-align: justify;
+}
+.speaker-photo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    background: var(--light-blue);
+    display: block;
+    padding: 8px;
+    border-radius: 50%;
 }
 
 .form {
@@ -115,6 +146,7 @@ body>div {
 }
 
 .container {
+    color: var(--purple);
     margin: 0 10% 2.5em;
     border-radius: 16px;
     background-color: white;
