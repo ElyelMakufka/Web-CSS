@@ -92,12 +92,13 @@ body>div {
 }
 .speaker-photo img {
     width: 100px;
-    height: 100px;
+    height:  100px;
     object-fit: cover;
     object-position: center;
     background: var(--light-blue);
     display: block;
-    padding: 8px;
+    padding: 8px; 
+    
     border-radius: 50%;
 }
 
